@@ -20,13 +20,11 @@ Feature Description
 
 ![image](https://github.com/user-attachments/assets/00d599c8-6381-47bb-8333-2d1dc9b8dbb2)
 
-
 b.	Feature Selection
 Instead of using the actual value for the clustering, you are asked to create features derived from the actual data. The features requested are:
 
-![image](https://github.com/user-attachments/assets/90c5be0d-4e17-4a8f-bb43-220285839142)
+![image](https://github.com/user-attachments/assets/5aa90b3d-3dad-4ee9-871c-c3e9e0679bff)
 
- 
 c.	Feature Extraction
 After the five new features are extracted, you are asked to use Principal Component Analysis (PCA) to both clean the data and reduce the dimensionality even further.
 The steps that you want to take are as follows:
