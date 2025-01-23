@@ -17,49 +17,15 @@ The given dataset contains 3,632 data consisting of behavior information of all 
 
 Feature Description
 	The table below shows the feature descriptions in the dataset.
-Table 1. Table of features descriptions for clustering
-Category	Column	Description	Possible Value
-Features	Administrative	Administrative Value	Number
-	Administrative Duration	Duration in Administrative Page	Number
-	Informational	Informational Value	Number
-	Informational Duration	Duration in Informational Page	Number
-	Product Related	Product Related Value	Number
-	Product Related Duration	Duration in Product Related Page	0 to 3
-	Bounce Rates	Bounce Rates of a Web Page	Number
-	Exit Rates	Exit Rates of a Web Page	0 to 3
-	Page Values	Page Values of Each Web Page	Number
-	Special Day	Special Days Rate like Valentine etc.	String
-	Month	Month of the Year	String
-	Operating System	Operating System Used	0 to 8
-	Browser	Browser Used	0 to 13
-	Region	Region of the User	1 to 9
-	Traffic Type	Traffic Type in the Web Page	1 to 20
-	Visitor Type	Types of the Visitor	String
-	Weekend	Weekend or Not	True or False
-	Revenue	Revenue Will be Generated or Not	True or False
+
+![image](https://github.com/user-attachments/assets/00d599c8-6381-47bb-8333-2d1dc9b8dbb2)
+
 
 b.	Feature Selection
 Instead of using the actual value for the clustering, you are asked to create features derived from the actual data. The features requested are:
-Table 2. Required features and derivation formula
-Feature	Derivation Formula
-Special Day Rate	if (Special Day is “HIGH”):
-   Special Day = 2
-elif (Special Day is “NORMAL”):
-   Special Day = 1
-elif (Special Day is “LOW”):
-   Special Day = 0
-Visitor Type	if (Visitor Type is “Returning_Visitor”):
-   Visitor Type = 2
-elif (Visitor Type is “New_Visitor”):
-   Visitor Type = 1
-elif (Visitor Type is “Other”):
-   Visitor Type = 0
-Weekend	if (Weekend is “TRUE”):
-   Weekend = 1
-elif (Weekend is “FALSE”):
-   Weekend = 0
-Product Related Duration	Duration in Product Related Page
-Exit Rates	Exit Rate of a Web Page
+
+![image](https://github.com/user-attachments/assets/90c5be0d-4e17-4a8f-bb43-220285839142)
+
  
 c.	Feature Extraction
 After the five new features are extracted, you are asked to use Principal Component Analysis (PCA) to both clean the data and reduce the dimensionality even further.
